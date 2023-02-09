@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #FFFBF1;
 }
 
 .container {
@@ -12,13 +13,15 @@
 }
 
 form {
-  background-color: #ccc;
+  background-color: white;
   color: #444;
   width: 100%;
-  max-width: 300px;
-  padding: 20px;
+  max-width: 400px;
+  padding: 40px;
   border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 
 h1 {
   margin-bottom: 15px;
@@ -30,20 +33,26 @@ input {
   width: 100%;
   margin-bottom: 15px;
   border: none;
-  height: 30px;
+  height: 35px;
   border-radius: 5px;
+  border: 1px solid #e7e7e7;
   text-indent: 10px;
+  background-color: #FFFBF1;
 }
 
 input:focus{
   outline: none;
+  border: 1px solid black;
 }
 
 button {
   width: 100%;
-  height: 25px;
+  height: 35px;
+  font-size: 14px;
   border: none;
   border-radius: 5px;
+  background-color:#1c0101;
+  color: white;
 }
 
 .nav {
@@ -62,8 +71,8 @@ li {
 
 a {
   text-decoration: none;
-  color: black;
-  background-color: #ccc;
+  color: white;
+  background-color: black;
   padding: 10px 20px;
   text-align: center;
   border-radius: 5px;
