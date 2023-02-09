@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/login">Login</a></li>
+    </div>
+
+    <div class="container">
+      <form action="/api/auth/signup" method="POST">
+        <h1>Sign up form</h1>
+        <div>
+          <input type="text" name="username" placeholder="Username" />
+        </div>
+        <div>
+          <input type="email" name="email" placeholder="Email" />
+        </div>
+        <div>
+          <input type="password" name="password" placeholder="Password" />
+        </div>
+        <div>
+          <input type="role" name="role" placeholder="Role" />
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
